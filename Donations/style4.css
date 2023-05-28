@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    z-index: 100;
+    color:black;
+}
+
+.nav-grad{
+    background-color:rgba(250,235,215,.5);
+
+}
+
+.navbar-brand{
+    font-size:xx-large;
+    font-weight: 600;
+    transition: 3s;
+}
+
+.navbar-brand:hover{
+    opacity: 0.5;
+    transition:ease-out;
+}
+
+
+.nav-link{
+    margin-left: 8vw;
+}
+
+
+.top{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    height: 200px;
+    width: 100%;
+    color: white;
+    padding:40px;
+}
+
+.yoyo2{
+    text-decoration: none;
+    color: black;
+}
+
+.yoyo:hover{
+    text-decoration: none;
+}
+
+.dodo{
+    background-color: rebeccapurple;
+}
+
+Footer{
+    background-color:rgba(250,235,215,.5);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
